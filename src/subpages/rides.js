@@ -9,7 +9,7 @@ export const Rides = () => {
   useEffect(() => {
     const fetchCars = async () => {
       try {
-        let url = "http://localhost:3001/getCars/getCars";
+        let url = "https://tripwheelsnation-api.onrender.com/getCars/getCars";
         const searchParams = new URLSearchParams(window.location.search);
         const carType = searchParams.get("cartype");
         if (carType) {
@@ -37,7 +37,7 @@ export const Rides = () => {
 
   return (
     <div>
-      <h4>Discover TripWheels, <br/> World's largest car sharing marketplace</h4>
+      <h4>Discover TripWheels, <br /> World's largest car sharing marketplace</h4>
       <h2>Rent a {carSelected ? carSelected.carname : "car"}</h2>
       <div>
         <div className="car-list">

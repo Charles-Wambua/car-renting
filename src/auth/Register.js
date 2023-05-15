@@ -11,7 +11,7 @@ export const Register = () => {
   
   const handleSubmit = (event) => {
     event.preventDefault();
-    axios.post("http://localhost:3001/register/register", { name, email, username: userName, password, confirmPassword })
+    axios.post("https://tripwheelsnation-api.onrender.com/register/register", { name, email, username: userName, password, confirmPassword })
       .then((response) => {
         console.log(response);
         localStorage.setItem("authToken", response.data.token);

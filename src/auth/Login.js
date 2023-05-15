@@ -9,7 +9,7 @@ export const Login = () => {
   
   const handleSubmit = (event) => {
     event.preventDefault()
-    axios.post("http://localhost:3001/login/login", { email, password }).then((res) => {
+    axios.post("https://tripwheelsnation-api.onrender.com/login/login", { email, password }).then((res) => {
       if (res.ok) {
         return res.json();
       } else {

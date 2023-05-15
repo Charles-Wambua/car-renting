@@ -24,7 +24,7 @@ export const PostCar = () => {
     })
 
     try {
-      const res = await axios.post("http://localhost:3001/postCar/postCar", formData, {
+      const res = await axios.post("https://tripwheelsnation-api.onrender.com/postCar/postCar", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
