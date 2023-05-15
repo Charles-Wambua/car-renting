@@ -1,0 +1,63 @@
+.navContainer {
+  position: fixed;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 20px 20px 0 0;
+  padding: 10px;
+}
+
+.Links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.Links a {
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 10px;
+  text-decoration: none;
+  position: relative;
+}
+
+.Links a::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.Links a:hover::after,
+.Links a:focus::after {
+  background-color: #ffa500;
+}
+
+.Links a.active::after {
+  background-color: #ffa500;
+}
+
+@media (max-width: 768px) {
+  .Links {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .Links a {
+    margin: 10px 0;
+  }
+}

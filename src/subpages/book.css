@@ -1,0 +1,217 @@
+.bookContainer {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+  }
+  .prompts {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  .image {
+    width: 40%;
+    max-height: 400px;
+    overflow: hidden;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .process{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 800px;
+    margin-top: 2cm;
+    margin-bottom: 3cm;
+  }
+  .here{
+    color:orange;
+    cursor: pointer;
+  }
+  .here :hover{
+    color: #c21e1e;
+  }
+  .footere{
+    
+        display: flex;
+        flex-direction: row;
+        margin-top: 1cm;
+        padding-top: 2cm;
+       text-align: center;
+        align-items: first baseline;
+        justify-content: center;
+        background-color: #997777;
+        padding: 30px;
+        border-radius: 5px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        width: 100%;
+        max-width: 1200px;
+        text-overflow: clip;
+  }
+  .button button{
+    background-color: #39c21e;
+    margin-top: 1cm;
+  }
+  .button button :hover{
+    color: rgb(33, 18, 145);
+  }
+  .learnmore{
+    display: flex;
+    flex-direction: row;
+   
+   
+  }
+  .learnMore{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  }
+  .learnit{
+    background-color: #fff;
+    margin: 3cm;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 800px;
+    margin-top: 2cm;
+    margin-bottom: 3cm;
+
+  }
+  .ourfleet{
+    display: flex;
+    flex-direction: column;
+  }
+  .carsavailable{
+    display: flex;
+    flex-direction: row;
+  }
+  .card-container {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth; /* optional */
+  width: 100%;
+  padding: 10px;
+}
+  .card{
+    background-color: #fff;
+    margin: 1cm;
+    /* padding: 30px; */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+  }
+  .card img{
+    width: 18rem;
+  }
+  .noma{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth; /* optional */
+  width: 100%;
+  padding: 10px;
+
+  }
+  .card-title a{
+    color:#0e0f0e;
+    font-size: medium;
+  }
+  .card-title :hover{
+    color: #2c32de;
+  }
+  
+.vehicle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.buttons button:last-child {
+  margin-right: 0;
+}
+
+.vehicle .image {
+  width: 30%;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.vehicle .image img {
+  width: 100%;
+  height: auto;
+}
+
+.button {
+  width: 60%;
+}
+
+.button table {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.button table td {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.button table tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.button table tr:first-child {
+  font-weight: bold;
+}
+
+.button button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footere {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.footere h2 {
+  font-size: 24px;
+}
